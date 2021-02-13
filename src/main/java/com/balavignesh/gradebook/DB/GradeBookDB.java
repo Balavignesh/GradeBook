@@ -43,11 +43,11 @@ public class GradeBookDB {
     public static AtomicInteger idCounter = new AtomicInteger();
     
     public void addDefaults(){
-        createServer("bala","35.224.65.85","8080","GradeBook");
-        createServer("ashok","34.68.29.81","8080","GradeBook");
-        createServer("manasa","104.197.5.217","8080","GradeBook");
-        createServer("neeraja","35.202.183.42","8080","GradeBook");
-        //createServer("localhost","184.57.12.9","8080","GradeBook");
+        //createServer("bala","35.224.65.85","8080","GradeBook");
+        //createServer("ashok","34.68.29.81","8080","GradeBook");
+        //createServer("manasa","104.197.5.217","8080","GradeBook");
+        createServer("neeraja","34.72.167.47","8080","GradeBook");
+        createServer("localhost","192.168.0.105","8080","GradeBook");
               
     }
     

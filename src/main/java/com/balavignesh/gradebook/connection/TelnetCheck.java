@@ -20,7 +20,8 @@ class TelnetCheck extends TimerTask
     {
             int port=8080;
             int totalclients = 4;
-            String ip[]={"35.224.65.85","34.68.29.81","104.197.5.217","35.202.183.42"};
+            //String ip[]={"35.224.65.85","34.68.29.81","104.197.5.217","35.202.183.42"};
+            String ip[]={"34.72.167.47"};
             int k =ip.length;
 	    TimerTask con  = new TelnetCheck();
             Timer timer = new Timer();

@@ -30,7 +30,9 @@ public class RestXmlHttpClient {
 "    </server>\n" +
 "</gradebook>";
 
-		URL url = new URL("http://35.224.65.85:8080/GradeBook/resources/gradebook");
+		//URL url = new URL("http://35.224.65.85:8080/GradeBook/resources/gradebook");
+                URL url = new URL("http://34.72.167.47:8080/GradeBook/resources/gradebook");
+                
 		HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
 		// Set timeout as per needs
